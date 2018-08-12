@@ -6,7 +6,7 @@ require "vendor/conf.php";
 require "vendor/autoload.php";
 
  
-$pushID = 'U7ef7a449f2a5c2057eacfc02ba2eb286';
+$pushID = 'U512220bb42a78809371e99a9af053f25';
 
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
