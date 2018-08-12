@@ -1,5 +1,9 @@
 <?php 
 
+require "vendor/conf.php";
+require "vendor/autoload.php";
+require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php'); 
+
 if($_GET['c'] == 'test')
 {
 	$url = "https://newproject.pnru.ac.th/apibotline/record.php";   
@@ -44,4 +48,6 @@ if ($content) {
 	 
 	
 }
+
+echo "OK";
 
